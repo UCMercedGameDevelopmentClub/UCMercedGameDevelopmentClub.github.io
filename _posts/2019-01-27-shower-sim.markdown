@@ -8,8 +8,9 @@ img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: January 2019
-client: UCMGDC Smokin' Game Jam
-category: Bad games
+developer: A Coniferious Chair
+genre: Bad games
+project-url: https://aconiferouschair.itch.io/shower-simulator
 description: Remember when your brother used the other shower at the same time? Now you can relive the experience of someone taking all the hot water on your computer! (wow!)
 
 ---

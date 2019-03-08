@@ -8,8 +8,9 @@ img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt
 project-date: January 2019
-client: UCMGDC Smokin' Game Jam
-category: Visual Novel
+developer: lil debitos
+genre: Visual Novel
+project-url: https://krimson-komrade.itch.io/danny-devitos-case-detective-rarity
 description: Danny Devito goes missing and Detective Rarity is on the case!!
 
 ---

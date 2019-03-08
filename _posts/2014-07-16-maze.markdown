@@ -8,8 +8,9 @@ img: golden.png
 thumbnail: golden-thumbnail.png
 alt: image-alt
 project-date: April 2014
-client: UCMGDC Smokin' Game Jam
-category: Puzzle
+developer: Team VROOM
+genre: Puzzle
+project-url: https://archangeldawn.itch.io/maze
 description: Find your friends.
 
 ---
