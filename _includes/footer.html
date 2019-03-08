@@ -1,5 +1,5 @@
-  <footer>
-        <div class="container">
+  <footer class="bg-light-gray">
+        <div class="container" >
             <div class="row">
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
@@ -7,8 +7,12 @@
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
-                        </li>
+                            {% if network.title == 'itch-io' %}
+                            <li><a href="{{ network.url }}"><img src= "img/logos/itchio-textless-white.svg"   height="20px" width="20px" /></a>
+                            {% else %}
+                            <li><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
+                            </li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
                 </div>

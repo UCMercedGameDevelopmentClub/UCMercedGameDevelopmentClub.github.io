@@ -42,7 +42,7 @@ people:
 social:
   - title: discord
     url: http://discord.gg/5z6THuT
-  - title: facebook
+  - title: facebook-f
     url: https://www.facebook.com/groups/269175380309064/
   - title: itch-io 
     url: https://ucmgdc.itch.io/
@@ -57,3 +57,4 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+future: true

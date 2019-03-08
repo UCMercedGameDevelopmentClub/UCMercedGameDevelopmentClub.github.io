@@ -4,8 +4,8 @@ subtitle:
 layout: default
 modal-id: 3
 date: 2019-01-27
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: 
+thumbnail: 
 alt: image-alt
 project-date: April 2014
 developer: Team VROOM
@@ -13,4 +13,5 @@ genre: Puzzle
 project-url: https://archangeldawn.itch.io/maze
 description: Find your friends.
 
+categories: portfolio
 ---

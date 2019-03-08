@@ -1,0 +1,15 @@
+---
+subtitle: ""
+layout: default
+categories: events
+
+img: gm.png
+thumbnail: gm.png
+
+title: "General Meeting"
+description: We'll be talking about game pitches.
+date: 2019-03-10
+location: KL 208
+start-time: 4 PM
+end-time: 6 PM  
+---

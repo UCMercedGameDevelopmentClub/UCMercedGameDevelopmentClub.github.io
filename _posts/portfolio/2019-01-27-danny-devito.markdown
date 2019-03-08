@@ -4,8 +4,8 @@ subtitle: Website Design
 layout: default
 modal-id: 2
 date: 2019-01-27
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: 
+thumbnail: 
 alt: image-alt
 project-date: January 2019
 developer: lil debitos
@@ -13,4 +13,5 @@ genre: Visual Novel
 project-url: https://krimson-komrade.itch.io/danny-devitos-case-detective-rarity
 description: Danny Devito goes missing and Detective Rarity is on the case!!
 
+categories: portfolio
 ---
