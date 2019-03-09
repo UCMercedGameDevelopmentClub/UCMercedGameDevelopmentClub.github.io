@@ -1,11 +1,20 @@
 url: https://ucmercedgamedevelopmentclub.github.io/welcome
-baseurl: /
+baseurl: ""
 
 # Site settings
 title: UC Merced Game Development Club
 email: your-email@domain.com
-description: "UC Merced's Game Development Club"
+description: "UC Merced Game Development Club focus on game making aspects and development."
+logo: /img/GDC_Logo.png
 
+social:
+  name: 
+  links:
+    - http://discord.gg/5z6THuT
+    - https://www.facebook.com/groups/269175380309064/
+    - https://ucmgdc.itch.io/
+    - https://github.com/UCMercedGameDevelopmentClub
+    - https://catlife.ucmerced.edu/organization/gdc
 
 # Team names, titles and social links
 people:
@@ -58,3 +67,6 @@ address:
 markdown: kramdown
 permalink: pretty
 future: true
+
+plugins:
+  - jekyll-seo-tag
