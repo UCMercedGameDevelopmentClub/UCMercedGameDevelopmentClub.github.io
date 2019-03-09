@@ -15,21 +15,28 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             
-                            {% if post.categories contains 'portfolio'   %}
+                            {% if post.categories contains 'portfolio' %}
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Project Url:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-url }}</a>
+                                    <strong><a href=" {{ post.project-url }} ">{{ post.project-url }}</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                <li>Release Date:
+                                    <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
                                 <li>Developer:
-                                    <strong><a href="http://startbootstrap.com">{{ post.developer }}</a>
+                                    <strong>
+                                            {% if post.developer-url == "" or post.developer-url == nil %}{{ post.developer }}
+                                            {% else %} <a href=" {{ post.developer-url }} ">{{ post.developer }}</a>
+                                            {% endif %}
                                     </strong>
+                                </li>
+                                <li>Genre:
+                                        <strong>{{ post.genre }}
+                                        </strong>
                                 </li>
                             </ul>
                             {% endif %}
