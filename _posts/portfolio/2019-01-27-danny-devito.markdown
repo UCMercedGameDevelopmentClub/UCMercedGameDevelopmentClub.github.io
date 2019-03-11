@@ -1,4 +1,6 @@
 ---
+sitemap: false
+
 title: "Danny Devito's Case: Detective Rarity"
 subtitle: Website Design
 layout: default

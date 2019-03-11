@@ -1,4 +1,6 @@
 ---
+sitemap: false
+
 title: Maze
 subtitle: 
 layout: default

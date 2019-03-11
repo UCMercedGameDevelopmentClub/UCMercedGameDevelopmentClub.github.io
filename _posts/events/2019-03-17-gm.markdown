@@ -1,11 +1,12 @@
 ---
+sitemap: false
 subtitle: ""
 layout: default
 categories: events
 
 img: gm.png
 thumbnail: gm.png
-
+modal-id: 1
 title: "General Meeting"
 description:
 date: 2019-03-17

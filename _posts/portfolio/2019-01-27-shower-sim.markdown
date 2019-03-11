@@ -1,4 +1,6 @@
 ---
+sitemap: false
+
 title: Shower Sim 2019 NAKED AND AFRAID EDITION
 subtitle: Don't let the gremlins steal your hot water
 layout: default
