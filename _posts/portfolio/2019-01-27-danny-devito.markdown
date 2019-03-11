@@ -8,7 +8,7 @@ modal-id: 2
 date: 2019-01-27
 img: 
 thumbnail: 
-alt: image-alt
+
 project-date: January 2019
 developer: Krimson_Komrade
 developer-url: https://itch.io/profile/krimson-komrade

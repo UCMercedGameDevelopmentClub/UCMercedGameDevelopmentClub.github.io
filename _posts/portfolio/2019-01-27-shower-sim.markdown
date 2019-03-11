@@ -8,7 +8,7 @@ modal-id: 1
 date: 2019-01-27
 img: dreams.png
 thumbnail: dreams-thumbnail.png
-alt: image-alt
+alt:
 project-date: January 2019
 developer: A Coniferious Chair
 developer-url: https://a-coniferous-chair.itch.io

@@ -16,46 +16,54 @@
                             <hr class="star-primary">
                             
                             {% if post.categories contains 'portfolio' %}
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Project Url:
-                                    <strong><a href=" {{ post.project-url }} ">{{ post.project-url }}</a>
-                                    </strong>
-                                </li>
-                                <li>Release Date:
-                                    <strong>{{ post.project-date }}
-                                    </strong>
-                                </li>
-                                <li>Developer:
-                                    <strong>
-                                            {% if post.developer-url == "" or post.developer-url == nil %}{{ post.developer }}
-                                            {% else %} <a href=" {{ post.developer-url }} ">{{ post.developer }}</a>
-                                            {% endif %}
-                                    </strong>
-                                </li>
-                                <li>Genre:
-                                        <strong>{{ post.genre }}
+                                {% if post.img == nil %}
+                                    <img src="img/missing-texture.png" class="img-responsive img-centered" alt="No Image!">
+                                {% else %}
+                                    <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="No Image!">
+                                {% endif %}
+                                <p>{{ post.description }}</p>
+                                <ul class="list-inline item-details">
+                                    <li>Project Url:
+                                        <strong><a href=" {{ post.project-url }} ">{{ post.project-url }}</a>
                                         </strong>
-                                </li>
-                            </ul>
+                                    </li>
+                                    <li>Release Date:
+                                        <strong>{{ post.project-date }}
+                                        </strong>
+                                    </li>
+                                    <li>Developer:
+                                        <strong>
+                                                {% if post.developer-url == "" or post.developer-url == nil %}{{ post.developer }}
+                                                {% else %} <a href=" {{ post.developer-url }} ">{{ post.developer }}</a>
+                                                {% endif %}
+                                        </strong>
+                                    </li>
+                                    <li>Genre:
+                                            <strong>{{ post.genre }}
+                                            </strong>
+                                    </li>
+                                </ul>
                             {% endif %}
 
 
                             {% if post.categories contains 'events'   %}
-                            <img src="img/events/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>{{ post.date | date_to_string }}</strong>
-                                </li>
-                                <li>Location:
-                                    <strong>{{ post.location }}</strong>
-                                </li>
-                                <li>Time:
-                                    <strong>{{ post.start-time }} - {{ post.end-time }} </strong>
-                                </li>
-                            </ul>
+                                {% if post.img == nil %}
+                                    <img src="img/missing-texture.png" class="img-responsive img-centered" alt="No Image!">
+                                {% else %}
+                                    <img src="img/events/{{ post.img }}" class="img-responsive img-centered" alt="No Image!">
+                                {% endif %}
+                                <p>{{ post.description }}</p>
+                                <ul class="list-inline item-details">
+                                    <li>Date:
+                                        <strong>{{ post.date | date_to_string }}</strong>
+                                    </li>
+                                    <li>Location:
+                                        <strong>{{ post.location }}</strong>
+                                    </li>
+                                    <li>Time:
+                                        <strong>{{ post.start-time }} - {{ post.end-time }} </strong>
+                                    </li>
+                                </ul>
                             {% endif %}
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
