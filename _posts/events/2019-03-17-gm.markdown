@@ -8,7 +8,7 @@ img: gm.png
 thumbnail: gm.png
 
 title: "General Meeting"
-description:
+description: We'll be discussing about game engines.
 date: 2019-03-17
 location: KL 208
 start-time: 4 PM
