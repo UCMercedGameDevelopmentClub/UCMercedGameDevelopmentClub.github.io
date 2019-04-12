@@ -9,11 +9,11 @@ img:
 thumbnail: 
 
 title: "General Meeting"
-description: We'll be talking about game pitches.
+description: We'll be talking about the game jam later in the semester and the SGDA Summit!
 
 #date format YYYY-MM-DD
-date: 2019-03-10
+date: 2019-04-14
 location: KL 208
 start-time: 4 PM
-end-time: 6 PM  
+end-time: 6:40 PM  
 ---
