@@ -1,4 +1,5 @@
 ---
+sitemap: false
 subtitle: ""
 layout: default
 categories: events
@@ -12,8 +13,8 @@ title: "General Meeting"
 description: We'll be talking about the game jam later in the semester and the SGDA Summit!
 
 #date format YYYY-MM-DD
-date: YYYY-MM-DD
-location: ROOM
-start-time: X PM
-end-time: X PM  
+date: 2019-04-14
+location: KL 208
+start-time: 4 PM
+end-time: 6:40 PM  
 ---
