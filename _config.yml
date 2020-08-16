@@ -11,7 +11,7 @@ lang: en_US
 social:
   name: 
   links:
-    - http://discord.gg/5z6THuT
+    - https://discord.gg/ztyDgmP
     - https://www.facebook.com/groups/269175380309064/
     - https://ucmgdc.itch.io/
     - https://github.com/UCMercedGameDevelopmentClub
@@ -19,39 +19,34 @@ social:
 
 # Team names, titles and social links
 people:
-- name: Pat Dimaandal
-  position: President / Visual Arts Chair
+- name: Anooj Vadodkar
+  position: President / Programming Chair
 
-- name: Mark Armstrong
+- name: Sean Rook
   position: Vice President
 
-- name: Imani Jones
+- name: Farid Mirzaei
   position: Secretary
 
-- name: Russell Yu
+- name: Kaylee Davis
   position: Treasurer
 
-- name: Andrew Wong
-  position: Events Coordinator
+- name: Alex Guzman
+  position: Events Coordinator / Writing Chair
 
-- name: Justin Lok
-  position: Programing Chair
+- name: Rhys Christian
+  position: Visual Arts Chair
 
-- name: Charles Chung
-  position: Events Coordinator / Programing Chair
 
 - name: Nathan Huynh
   position: Sound Design Chair
-
-- name: Anooj Vadodkar
-  position: Writing Chair
 
 - name: Derek Sollberger
   position: Advisor
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: discord
-    url: http://discord.gg/5z6THuT
+    url: https://discord.gg/ztyDgmP
   - title: facebook-f
     url: https://www.facebook.com/groups/269175380309064/
   - title: itch-io 
