@@ -2,9 +2,9 @@ url: https://ucmercedgame.dev
 baseurl: ""
 
 # Site settings
-title: UC Merced Game Development Club
+title: Game Development Club at UC Merced
 email: ucmgamedevelopmentclub@gmail.com
-description: "UCMGDC focuses on game development, all the way from coding to creating art. We are a club for UC Merced students who are interested in game dev."
+description: "The GDC@UC Merced focuses on game development, with members working on anything from programming to art. We are a club for UC Merced students who are interested in game dev, any level of experience is welcome.."
 logo: /img/GDC_Logo.png
 lang: en_US
 
@@ -15,7 +15,7 @@ social:
     - https://www.facebook.com/groups/269175380309064/
     - https://ucmgdc.itch.io/
     - https://github.com/UCMercedGameDevelopmentClub
-    - https://catlife.ucmerced.edu/organization/gdc
+    - https://ucmerced.presence.io/organization/game-development-club
 
 # Team names, titles and social links
 people:
@@ -33,13 +33,6 @@ people:
 
 - name: Alex Guzman
   position: Events Coordinator / Writing Chair
-
-- name: Rhys Christian
-  position: Visual Arts Chair
-
-
-- name: Nathan Huynh
-  position: Sound Design Chair
 
 - name: Derek Sollberger
   position: Advisor
